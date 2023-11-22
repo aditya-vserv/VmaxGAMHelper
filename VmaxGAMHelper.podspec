@@ -1,9 +1,9 @@
 Pod::Spec.new do |spec|
 
   spec.name = "VmaxGAMHelper"
-  spec.version = "1.0.0"
-  spec.summary = "VmaxGAMHelper allows the publishers to display Ad Manager Banner Ads via Vmax."
-  spec.description = "VmaxGAMHelper allows the publishers to display Ad Manager Banner Ads via Vmax."
+  spec.version = "1.0.1"
+  spec.summary = "VmaxGAMHelper allows the publishers to display Banner Ads via Vmax using Google Ads"
+  spec.description = "VmaxGAMHelper allows the publishers to display Google AdManager Banner Ads via Vmax."
   spec.homepage = "https://www.vmax.com"
   spec.license = "MIT"
   spec.author = { "Aditya Sharma" => "aditya.s@vserv.com" }

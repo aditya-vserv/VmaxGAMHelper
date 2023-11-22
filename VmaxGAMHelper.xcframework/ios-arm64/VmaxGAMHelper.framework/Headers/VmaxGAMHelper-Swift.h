@@ -253,6 +253,7 @@ using UInt = size_t;
 
 #if defined(__OBJC__)
 
+/// VmaxAdGAMBanner allows you draw <code>Banner</code> ad experiences using Google Ads.
 SWIFT_CLASS("_TtC13VmaxGAMHelper15VmaxAdGAMBanner")
 @interface VmaxAdGAMBanner : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
