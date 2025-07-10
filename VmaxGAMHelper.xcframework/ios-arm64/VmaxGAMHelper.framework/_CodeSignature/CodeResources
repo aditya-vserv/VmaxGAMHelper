@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/VmaxGAMHelper-Swift.h</key>
 		<data>
-		SNQxWFcmQuOyn2ty59gaw+ZdJ1Q=
+		guWryRoQxfScsAosqBMw/30nnOc=
 		</data>
 		<key>Headers/VmaxGAMHelper.h</key>
 		<data>
@@ -14,35 +14,35 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		WbBpwpcxHgk24jbzYKThceGOG+o=
+		aSaaJQnw9ZTx4ueRt4kiLcGH4HQ=
 		</data>
 		<key>Modules/VmaxGAMHelper.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		Tz1TkwYTg5F5RodDSN1IV12j5Ow=
+		MQIe49bUmwhfnRjXDrlyT/VbWaQ=
 		</data>
 		<key>Modules/VmaxGAMHelper.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		+HnpIIlHalp5uUFxRrA5Kv3sr/k=
+		HyJM/isX7WklhPFGHJrWHAr77HE=
 		</data>
 		<key>Modules/VmaxGAMHelper.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		jrnplih6+yfEwEMq6dkqMFYwJTQ=
+		RBPmVyN3IIk3Slld58l+/54Yl8Y=
 		</data>
 		<key>Modules/VmaxGAMHelper.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		+HnpIIlHalp5uUFxRrA5Kv3sr/k=
+		HyJM/isX7WklhPFGHJrWHAr77HE=
 		</data>
 		<key>Modules/VmaxGAMHelper.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		4DbVxIbNlZ5sW0VusRporse+Xjs=
+		5whSWFSl95a4Ei7rXwgbI0c2uaw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		HvbOdvfsV5NymH21ZoTVnei9F+s=
+		AQyOjkqXA4Nt8MXHFUISbQjWtHE=
 		</data>
 		<key>VmaxGMADefaultLayout.nib</key>
 		<data>
-		dfQr+SCnYKASvkhF8sJy6oUfOX4=
+		e/KSPVr+Xmvf4jKXe63a2vWpUn8=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -51,7 +51,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			L3Fw6utXm3636aGODFb9zLnn1Bfd9HMw6sfzvzIcQV4=
+			59ABu9O9VfsDuYv0c+OfAOQ8it4NoayAWsng7OXacfI=
 			</data>
 		</dict>
 		<key>Headers/VmaxGAMHelper.h</key>
@@ -65,49 +65,49 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0mXVtUe+Q2lOj1dAjBp2UpDRUZpPIJwTmtc29L6yVCc=
+			r5hmNwoJl8vzXmen6vE8xlhUDba1kiFtkvx+QYanynQ=
 			</data>
 		</dict>
 		<key>Modules/VmaxGAMHelper.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LAv48X8B9OrFB26GVjja9ymUWpvFrbV8cH3/BANgeXg=
+			bUZe8hsk/JSzrC6EqgwfsvqUYEp5tFxJsMrWv84LQ50=
 			</data>
 		</dict>
 		<key>Modules/VmaxGAMHelper.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PMvI8iv9l2hWvR/jXq6xo3ruNCot22etmhvnXu4vMW4=
+			Yl44bTtznedrKAbPAnKiLs8YUwZy3tnaeKbNkrAiTFA=
 			</data>
 		</dict>
 		<key>Modules/VmaxGAMHelper.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LAv48X8B9OrFB26GVjja9ymUWpvFrbV8cH3/BANgeXg=
+			bUZe8hsk/JSzrC6EqgwfsvqUYEp5tFxJsMrWv84LQ50=
 			</data>
 		</dict>
 		<key>Modules/VmaxGAMHelper.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kylvybvgAmAqsdbbwBLIwlWoJXCsmI7mw3mqbqV21EM=
+			wK1hJ5l66WGYvtCIsxbrFFqguT3s+latrDEm85OKIWY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1cFc2Hzx3YPcBTs3ZZviIo/ryI3XSB61FUuO6X3L+zo=
+			4nboXDIs8J4MD5Sw0SV0/xf8s83VIfX8X7Dwc/KBloU=
 			</data>
 		</dict>
 		<key>VmaxGMADefaultLayout.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ypRbbvjiL3abeWm9ry3x9g+Iktenp/h12MCuAsnpUDo=
+			n4OjCOZYlAhgS2Pp9/YvITB5jV86OGPW2SDGQAnfd/I=
 			</data>
 		</dict>
 	</dict>

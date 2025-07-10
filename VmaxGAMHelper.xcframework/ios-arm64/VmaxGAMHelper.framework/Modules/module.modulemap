@@ -1,7 +1,7 @@
 framework module VmaxGAMHelper {
   umbrella header "VmaxGAMHelper.h"
-
   export *
+
   module * { export * }
 }
 

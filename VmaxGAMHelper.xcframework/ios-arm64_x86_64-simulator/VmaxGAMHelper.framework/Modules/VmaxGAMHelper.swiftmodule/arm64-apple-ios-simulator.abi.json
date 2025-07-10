@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "VmaxGAMHelper",
+    "printedName": "VmaxGAMHelper",
     "children": [
       {
         "kind": "Import",
@@ -529,6 +529,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
@@ -735,6 +749,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CustomStringConvertible",
             "printedName": "CustomStringConvertible",
             "usr": "s:s23CustomStringConvertibleP",
@@ -807,7 +835,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "VmaxAdDelegate",
-                "printedName": "Vmax.VmaxAdDelegate",
+                "printedName": "any Vmax.VmaxAdDelegate",
                 "usr": "s:4Vmax0A10AdDelegateP"
               }
             ],
@@ -940,6 +968,61 @@
           {
             "kind": "Function",
             "name": "set",
+            "printedName": "set(adInfo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VmaxAdInfo",
+                "printedName": "Vmax.VmaxAdInfo",
+                "usr": "s:4Vmax0A6AdInfoC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13VmaxGAMHelper0A11AdGAMBannerC3set6adInfoy0A00acG0C_tF",
+            "mangledName": "$s13VmaxGAMHelper0A11AdGAMBannerC3set6adInfoy0A00acG0C_tF",
+            "moduleName": "VmaxGAMHelper",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getVmaxAdInfo",
+            "printedName": "getVmaxAdInfo()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Vmax.VmaxAdInfo?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VmaxAdInfo",
+                    "printedName": "Vmax.VmaxAdInfo",
+                    "usr": "s:4Vmax0A6AdInfoC"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13VmaxGAMHelper0A11AdGAMBannerC03getaC4Info0A00acF0CSgyF",
+            "mangledName": "$s13VmaxGAMHelper0A11AdGAMBannerC03getaC4Info0A00acF0CSgyF",
+            "moduleName": "VmaxGAMHelper",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "set",
             "printedName": "set(keywords:)",
             "children": [
               {
@@ -1026,7 +1109,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "VmaxAdAssetHelper",
-                "printedName": "Vmax.VmaxAdAssetHelper",
+                "printedName": "any Vmax.VmaxAdAssetHelper",
                 "usr": "s:4Vmax0A13AdAssetHelperP"
               },
               {
@@ -1060,7 +1143,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "VmaxAdAssetHelper",
-                "printedName": "Vmax.VmaxAdAssetHelper",
+                "printedName": "any Vmax.VmaxAdAssetHelper",
                 "usr": "s:4Vmax0A13AdAssetHelperP"
               },
               {
@@ -1093,7 +1176,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "VmaxAdAssetHelper",
-                "printedName": "Vmax.VmaxAdAssetHelper",
+                "printedName": "any Vmax.VmaxAdAssetHelper",
                 "usr": "s:4Vmax0A13AdAssetHelperP"
               },
               {
@@ -1127,7 +1210,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "VmaxAdAssetHelper",
-                "printedName": "Vmax.VmaxAdAssetHelper",
+                "printedName": "any Vmax.VmaxAdAssetHelper",
                 "usr": "s:4Vmax0A13AdAssetHelperP"
               },
               {
@@ -1160,7 +1243,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "VmaxAdAssetHelper",
-                "printedName": "Vmax.VmaxAdAssetHelper",
+                "printedName": "any Vmax.VmaxAdAssetHelper",
                 "usr": "s:4Vmax0A13AdAssetHelperP"
               }
             ],
@@ -1187,7 +1270,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "VmaxAdAssetHelper",
-                "printedName": "Vmax.VmaxAdAssetHelper",
+                "printedName": "any Vmax.VmaxAdAssetHelper",
                 "usr": "s:4Vmax0A13AdAssetHelperP"
               }
             ],
@@ -1214,7 +1297,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "VmaxAdAssetHelper",
-                "printedName": "Vmax.VmaxAdAssetHelper",
+                "printedName": "any Vmax.VmaxAdAssetHelper",
                 "usr": "s:4Vmax0A13AdAssetHelperP"
               }
             ],
@@ -1475,6 +1558,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -1659,12 +1756,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "VmaxGAMHelper.VmaxGAMLayoutDelegate?",
+                "printedName": "(any VmaxGAMHelper.VmaxGAMLayoutDelegate)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "VmaxGAMLayoutDelegate",
-                    "printedName": "VmaxGAMHelper.VmaxGAMLayoutDelegate",
+                    "printedName": "any VmaxGAMHelper.VmaxGAMLayoutDelegate",
                     "usr": "s:13VmaxGAMHelper0A17GAMLayoutDelegateP"
                   }
                 ],
@@ -2305,6 +2402,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "VmaxLayout",
             "printedName": "VmaxLayout",
             "usr": "s:4Vmax0A6LayoutP",
@@ -2366,6 +2477,22 @@
         "moduleName": "VmaxGAMHelper",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -2385,21 +2512,21 @@
     {
       "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxGAMHelper\/VmaxGAMHelper\/Source\/Custom\/VmaxAdGAMCustom.swift",
       "kind": "BooleanLiteral",
-      "offset": 392,
+      "offset": 428,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxGAMHelper\/VmaxGAMHelper\/Source\/Custom\/VmaxAdGAMCustom.swift",
       "kind": "StringLiteral",
-      "offset": 742,
+      "offset": 778,
       "length": 8,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxGAMHelper\/VmaxGAMHelper\/Source\/Custom\/VmaxAdGAMCustom.swift",
       "kind": "StringLiteral",
-      "offset": 749,
+      "offset": 785,
       "length": 10,
       "value": "\"\""
     },
@@ -2453,186 +2580,74 @@
       "value": "6008"
     },
     {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxGAMHelper\/VmaxGAMHelper\/Source\/VmaxGAMError\/VmaxGAMError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 216,
-      "length": 4,
-      "value": "6002"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxGAMHelper\/VmaxGAMHelper\/Source\/VmaxGAMError\/VmaxGAMError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 234,
-      "length": 12,
-      "value": "6003"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxGAMHelper\/VmaxGAMHelper\/Source\/VmaxGAMError\/VmaxGAMError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 265,
-      "length": 12,
-      "value": "6004"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxGAMHelper\/VmaxGAMHelper\/Source\/VmaxGAMError\/VmaxGAMError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 296,
-      "length": 13,
-      "value": "6005"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxGAMHelper\/VmaxGAMHelper\/Source\/VmaxGAMError\/VmaxGAMError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 328,
-      "length": 11,
-      "value": "6006"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxGAMHelper\/VmaxGAMHelper\/Source\/VmaxGAMError\/VmaxGAMError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 358,
-      "length": 14,
-      "value": "6007"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxGAMHelper\/VmaxGAMHelper\/Source\/VmaxGAMError\/VmaxGAMError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 391,
-      "length": 13,
-      "value": "6008"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxGAMHelper\/VmaxGAMHelper\/Source\/VmaxGAMError\/VmaxGAMError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 216,
-      "length": 4,
-      "value": "6002"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxGAMHelper\/VmaxGAMHelper\/Source\/VmaxGAMError\/VmaxGAMError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 234,
-      "length": 12,
-      "value": "6003"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxGAMHelper\/VmaxGAMHelper\/Source\/VmaxGAMError\/VmaxGAMError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 265,
-      "length": 12,
-      "value": "6004"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxGAMHelper\/VmaxGAMHelper\/Source\/VmaxGAMError\/VmaxGAMError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 296,
-      "length": 13,
-      "value": "6005"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxGAMHelper\/VmaxGAMHelper\/Source\/VmaxGAMError\/VmaxGAMError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 328,
-      "length": 11,
-      "value": "6006"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxGAMHelper\/VmaxGAMHelper\/Source\/VmaxGAMError\/VmaxGAMError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 358,
-      "length": 14,
-      "value": "6007"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxGAMHelper\/VmaxGAMHelper\/Source\/VmaxGAMError\/VmaxGAMError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 391,
-      "length": 13,
-      "value": "6008"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxGAMHelper\/VmaxGAMHelper\/Source\/VmaxGAMError\/VmaxGAMError.swift",
-      "kind": "StringLiteral",
-      "offset": 134,
-      "length": 12,
-      "value": "\"VmaxGAMHelper.VmaxGAMError\""
-    },
-    {
       "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxGAMHelper\/VmaxGAMHelper\/Source\/Banner\/VmaxAdGAMBanner.swift",
       "kind": "BooleanLiteral",
-      "offset": 382,
+      "offset": 418,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxGAMHelper\/VmaxGAMHelper\/Source\/Banner\/VmaxAdGAMBanner.swift",
       "kind": "BooleanLiteral",
-      "offset": 594,
+      "offset": 630,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxGAMHelper\/VmaxGAMHelper\/Source\/Banner\/VmaxAdGAMBanner.swift",
       "kind": "BooleanLiteral",
-      "offset": 634,
+      "offset": 670,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxGAMHelper\/VmaxGAMHelper\/Source\/Banner\/VmaxAdGAMBanner.swift",
       "kind": "StringLiteral",
-      "offset": 890,
+      "offset": 926,
       "length": 8,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxGAMHelper\/VmaxGAMHelper\/Source\/Banner\/VmaxAdGAMBanner.swift",
       "kind": "StringLiteral",
-      "offset": 897,
+      "offset": 933,
       "length": 10,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxGAMHelper\/VmaxGAMHelper\/Source\/Native\/Billboard\/VmaxAdGAMNative.swift",
       "kind": "BooleanLiteral",
-      "offset": 385,
+      "offset": 421,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxGAMHelper\/VmaxGAMHelper\/Source\/Native\/Billboard\/VmaxAdGAMNative.swift",
       "kind": "BooleanLiteral",
-      "offset": 597,
+      "offset": 633,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxGAMHelper\/VmaxGAMHelper\/Source\/Native\/Billboard\/VmaxAdGAMNative.swift",
       "kind": "BooleanLiteral",
-      "offset": 637,
+      "offset": 673,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxGAMHelper\/VmaxGAMHelper\/Source\/Native\/Billboard\/VmaxAdGAMNative.swift",
       "kind": "StringLiteral",
-      "offset": 892,
+      "offset": 928,
       "length": 8,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxGAMHelper\/VmaxGAMHelper\/Source\/Native\/Billboard\/VmaxAdGAMNative.swift",
       "kind": "StringLiteral",
-      "offset": 899,
+      "offset": 935,
       "length": 10,
       "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxGAMHelper\/VmaxGAMHelper\/Source\/VmaxGMAMarkup.swift",
-      "kind": "StringLiteral",
-      "offset": 517,
-      "length": 11,
-      "value": "\"click-url\""
     },
     {
       "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxGAMHelper\/VmaxGAMHelper\/Source\/VmaxGMAMarkup.swift",
