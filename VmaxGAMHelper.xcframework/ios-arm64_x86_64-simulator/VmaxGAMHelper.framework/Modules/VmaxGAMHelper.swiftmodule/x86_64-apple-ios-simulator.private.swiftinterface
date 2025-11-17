@@ -68,6 +68,44 @@ extension VmaxGAMHelper.VmaxAdGAMBanner : Vmax.VmaxRefreshableAssetDelegate {
   public func onAdResumed()
   public func onAdComplete()
 }
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class VmaxAdGAMNative : ObjectiveC.NSObject, Vmax.VmaxAd {
+  @objc deinit
+  public func prepare(adResponse: Swift.String, delegate: any Vmax.VmaxAdDelegate)
+  public func render(container: UIKit.UIView)
+  public static func getSignatures() -> [Swift.String]
+  public func pause()
+  public func resume()
+  public func close()
+  public func set(layout: any Vmax.VmaxLayout)
+  public func set(adInfo: Vmax.VmaxAdInfo)
+  public func getVmaxAdInfo() -> Vmax.VmaxAdInfo?
+}
+extension VmaxGAMHelper.VmaxAdGAMNative : Vmax.VmaxNetworkAd {
+  public func set(keywords: [Swift.String])
+  public func set(customTargeting: [Swift.String : Swift.String])
+}
+extension VmaxGAMHelper.VmaxAdGAMNative : Vmax.VmaxAdAssetDelegate {
+  public func onPrepared<T>(asset: any Vmax.VmaxAdAssetHelper, result: T)
+  public func onPrepareFailed(asset: any Vmax.VmaxAdAssetHelper, error: Vmax.VmaxError)
+  public func onRendered<T>(asset: any Vmax.VmaxAdAssetHelper, result: T)
+  public func onRenderFailed(asset: any Vmax.VmaxAdAssetHelper, error: Vmax.VmaxError)
+  public func onClosed(asset: any Vmax.VmaxAdAssetHelper)
+  public func onClicked(asset: any Vmax.VmaxAdAssetHelper)
+  public func onClickedComplete(asset: any Vmax.VmaxAdAssetHelper)
+}
+extension VmaxGAMHelper.VmaxAdGAMNative : Vmax.VmaxRefreshableAd {
+  public func shouldProcessRefresh() -> Swift.Bool
+}
+extension VmaxGAMHelper.VmaxAdGAMNative : Vmax.ViewPortManager {
+  public func addObserverToScrollViews()
+  public func removeObserverFromScrollViews()
+  @objc override dynamic public func observeValue(forKeyPath keyPath: Swift.String?, of object: Any?, change: [Foundation.NSKeyValueChangeKey : Any]?, context: Swift.UnsafeMutableRawPointer?)
+}
+extension VmaxGAMHelper.VmaxAdGAMNative : Vmax.VmaxRefreshableAssetDelegate {
+  public func onAdPaused()
+  public func onAdResumed()
+  public func onAdComplete()
+}
 public protocol VmaxGAMLayout : Vmax.VmaxLayout {
   func set(delegate: (any VmaxGAMHelper.VmaxGAMLayoutDelegate)?)
   func getIcon() -> UIKit.UIImageView?
@@ -78,7 +116,7 @@ public protocol VmaxGAMLayout : Vmax.VmaxLayout {
   func setDescription(text: Swift.String?)
   func setRating(text: Swift.String?)
   func setPrice(text: Swift.String?)
-  func setCustom(element customNativeAd: GoogleMobileAds.GADCustomNativeAd?)
+  func setCustom(element customNativeAd: GoogleMobileAds.CustomNativeAd?)
 }
 extension VmaxGAMHelper.VmaxGAMLayout {
   public func getIcon() -> UIKit.UIImageView?
@@ -89,7 +127,7 @@ extension VmaxGAMHelper.VmaxGAMLayout {
   public func setDescription(text: Swift.String?)
   public func setRating(text: Swift.String?)
   public func setPrice(text: Swift.String?)
-  public func setCustom(element customNativeAd: GoogleMobileAds.GADCustomNativeAd?)
+  public func setCustom(element customNativeAd: GoogleMobileAds.CustomNativeAd?)
 }
 public protocol VmaxGAMLayoutDelegate {
   func nativeElementHasVideo()

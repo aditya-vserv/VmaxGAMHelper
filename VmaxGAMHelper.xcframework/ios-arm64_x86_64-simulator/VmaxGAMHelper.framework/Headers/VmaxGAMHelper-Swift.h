@@ -314,12 +314,30 @@ SWIFT_CLASS("_TtC13VmaxGAMHelper15VmaxAdGAMBanner")
 
 
 
-
 @class NSString;
 
 @interface VmaxAdGAMBanner (SWIFT_EXTENSION(VmaxGAMHelper))
 - (void)observeValueForKeyPath:(NSString * _Nullable)keyPath ofObject:(id _Nullable)object change:(NSDictionary<NSKeyValueChangeKey, id> * _Nullable)change context:(void * _Nullable)context;
 @end
+
+
+
+
+/// VmaxAdGAMNative allows you draw <code>Native</code> ad experiences using Google Ads.
+SWIFT_CLASS("_TtC13VmaxGAMHelper15VmaxAdGAMNative")
+@interface VmaxAdGAMNative : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+
+
+
+@interface VmaxAdGAMNative (SWIFT_EXTENSION(VmaxGAMHelper))
+- (void)observeValueForKeyPath:(NSString * _Nullable)keyPath ofObject:(id _Nullable)object change:(NSDictionary<NSKeyValueChangeKey, id> * _Nullable)change context:(void * _Nullable)context;
+@end
+
 
 
 #endif
@@ -646,12 +664,30 @@ SWIFT_CLASS("_TtC13VmaxGAMHelper15VmaxAdGAMBanner")
 
 
 
-
 @class NSString;
 
 @interface VmaxAdGAMBanner (SWIFT_EXTENSION(VmaxGAMHelper))
 - (void)observeValueForKeyPath:(NSString * _Nullable)keyPath ofObject:(id _Nullable)object change:(NSDictionary<NSKeyValueChangeKey, id> * _Nullable)change context:(void * _Nullable)context;
 @end
+
+
+
+
+/// VmaxAdGAMNative allows you draw <code>Native</code> ad experiences using Google Ads.
+SWIFT_CLASS("_TtC13VmaxGAMHelper15VmaxAdGAMNative")
+@interface VmaxAdGAMNative : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+
+
+
+@interface VmaxAdGAMNative (SWIFT_EXTENSION(VmaxGAMHelper))
+- (void)observeValueForKeyPath:(NSString * _Nullable)keyPath ofObject:(id _Nullable)object change:(NSDictionary<NSKeyValueChangeKey, id> * _Nullable)change context:(void * _Nullable)context;
+@end
+
 
 
 #endif
