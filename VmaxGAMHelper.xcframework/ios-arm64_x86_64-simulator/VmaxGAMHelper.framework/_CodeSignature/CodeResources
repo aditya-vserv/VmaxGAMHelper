@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/VmaxGAMHelper-Swift.h</key>
 		<data>
-		fnokUJ7t9WEbSdETn4fsJ+/FFdA=
+		6uAAgOU3stDssX3Ez6li9WNC0/4=
 		</data>
 		<key>Headers/VmaxGAMHelper.h</key>
 		<data>
@@ -14,47 +14,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		b+a5WKqIKxad8mVhyGlzdT7RvEM=
+		YxNzTUwqJEqw6wXwl2hzPtjDigY=
 		</data>
 		<key>Modules/VmaxGAMHelper.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		Dfpez2vdsePBvfW7lZ3CSKO4txk=
+		PJFc1+zxR/OsO713H50cdDxEOqw=
 		</data>
 		<key>Modules/VmaxGAMHelper.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		rKQXMdqhaAqJvCS6v2p8aLyBla8=
+		YtOkqZ5+E0LvCqq8b8hEA3geYP0=
 		</data>
 		<key>Modules/VmaxGAMHelper.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		7E0xHhKiW4MjZ2CrnwQud9Kkb5M=
+		U5Z6n1FLvqlZw8jvAguSOnOOiAE=
 		</data>
 		<key>Modules/VmaxGAMHelper.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		rKQXMdqhaAqJvCS6v2p8aLyBla8=
+		YtOkqZ5+E0LvCqq8b8hEA3geYP0=
 		</data>
 		<key>Modules/VmaxGAMHelper.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Fy4E+4GWvM1TjQxDSivdoxoj4BE=
+		BONA3PQJi84Y/hiuyZxfbHDLQfc=
 		</data>
 		<key>Modules/VmaxGAMHelper.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		Dfpez2vdsePBvfW7lZ3CSKO4txk=
+		PJFc1+zxR/OsO713H50cdDxEOqw=
 		</data>
 		<key>Modules/VmaxGAMHelper.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		XHhsyXBwFHvwfymcyQ+mO5zS7bU=
+		uLApKVw8NWkloWfFdcsluKYEwLA=
 		</data>
 		<key>Modules/VmaxGAMHelper.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		D1WE59S72ZoRexvA1isP8ZTzayQ=
+		o06+2jrLpl0xOEpJdaMNii/tD5Y=
 		</data>
 		<key>Modules/VmaxGAMHelper.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		XHhsyXBwFHvwfymcyQ+mO5zS7bU=
+		uLApKVw8NWkloWfFdcsluKYEwLA=
 		</data>
 		<key>Modules/VmaxGAMHelper.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Gzj0bjepW7ED7S1QP7ZdAzUeuww=
+		MWmeEVzoXCpyvOn5BnaDcsNba3Q=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -71,7 +71,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			qrlSpAcsp9jPSVvoLrF8jTrTeZpbIS6mNsATsDXSm+Y=
+			xDj62rkDjuBrWcJBUfFMorKG8yZzu3MZpg3lJiSPc50=
 			</data>
 		</dict>
 		<key>Headers/VmaxGAMHelper.h</key>
@@ -85,70 +85,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UzG5qfDwwUcdC9qK7KISRbSRPpovSQxfx73vxM/aSTo=
+			bXjk670qHCc7ActtjoIq4dFZ6Kw5fnuGIgjnT0ojYuo=
 			</data>
 		</dict>
 		<key>Modules/VmaxGAMHelper.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vzu2WLRziZtx/cUnVa3utuA3YpqyrMSxi0w/k0VIglw=
+			WBgV956eiM2D9TKKuqFKjxd1YkBuRkL6YqIKjVCFu9w=
 			</data>
 		</dict>
 		<key>Modules/VmaxGAMHelper.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8PS1BZ10Yzar/1939YIb0eQhIXKbkacvIi7Y6r3s3Gg=
+			Js0Ea8pB6DS0buO1t+Q9g1XFRWoKN+TBPYJxYLpNZZs=
 			</data>
 		</dict>
 		<key>Modules/VmaxGAMHelper.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vzu2WLRziZtx/cUnVa3utuA3YpqyrMSxi0w/k0VIglw=
+			WBgV956eiM2D9TKKuqFKjxd1YkBuRkL6YqIKjVCFu9w=
 			</data>
 		</dict>
 		<key>Modules/VmaxGAMHelper.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/dyKRZWtmM801i/pZiFuNUmAC9VcU8I3eelWaDz5Urw=
+			M/tgxGz5M/y1Av1MjGm0NqdRHpWcnOXgAaNCIBC7d+8=
 			</data>
 		</dict>
 		<key>Modules/VmaxGAMHelper.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UzG5qfDwwUcdC9qK7KISRbSRPpovSQxfx73vxM/aSTo=
+			bXjk670qHCc7ActtjoIq4dFZ6Kw5fnuGIgjnT0ojYuo=
 			</data>
 		</dict>
 		<key>Modules/VmaxGAMHelper.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kQaq33lXvEEmL17v8/p8rwJxmkkT8r86WUuux6s8Qec=
+			Y9xtGHNNcfn53WcKw6WLMpZp+5Xj8A6T6jyAMSOcku0=
 			</data>
 		</dict>
 		<key>Modules/VmaxGAMHelper.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			g6180TKF1OHooUguJlREyKcpEzi/1OSUrT2YnvpqHN0=
+			/aUT69/OpsegaON8g6himQmdnEgMhrm3+f1yR8LEcq4=
 			</data>
 		</dict>
 		<key>Modules/VmaxGAMHelper.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kQaq33lXvEEmL17v8/p8rwJxmkkT8r86WUuux6s8Qec=
+			Y9xtGHNNcfn53WcKw6WLMpZp+5Xj8A6T6jyAMSOcku0=
 			</data>
 		</dict>
 		<key>Modules/VmaxGAMHelper.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vR80ypVznEXlw1Q+TsGHN/6GjW1zEAWpUb1Xkr2rw+M=
+			NZWbglEWZ6CDpLi8iP70DWhVRH/Duj8F+fO+zqx6bts=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

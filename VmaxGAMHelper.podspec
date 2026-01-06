@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name = "VmaxGAMHelper"
-  spec.version = "1.0.3"
+  spec.version = "1.0.4"
   spec.summary = "VmaxGAMHelper allows the publishers to display Banner, Native Ads via Vmax using Google Mobile Ads SDK"
   spec.description = "VmaxGAMHelper allows the publishers to display Google Mobile Ads SDK via Vmax for Banner and Native Ads."
   spec.homepage = "https://www.vmax.com"

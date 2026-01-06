@@ -2976,6 +2976,31 @@
           },
           {
             "kind": "Function",
+            "name": "getAdLayoutSize",
+            "printedName": "getAdLayoutSize()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13VmaxGAMHelper0A9GAMLayoutP15getAdLayoutSizeSo6CGSizeVyF",
+            "mangledName": "$s13VmaxGAMHelper0A9GAMLayoutP15getAdLayoutSizeSo6CGSizeVyF",
+            "moduleName": "VmaxGAMHelper",
+            "genericSig": "<τ_0_0 where τ_0_0 : VmaxGAMHelper.VmaxGAMLayout>",
+            "sugared_genericSig": "<Self where Self : VmaxGAMHelper.VmaxGAMLayout>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "getIcon",
             "printedName": "getIcon()",
             "children": [
@@ -3449,6 +3474,13 @@
       "offset": 398,
       "length": 13,
       "value": "6008"
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxGAMHelper\/VmaxGAMHelper\/Source\/Native\/Billboard\/VmaxAdAssetHelperGAMNative.swift",
+      "kind": "BooleanLiteral",
+      "offset": 769,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxGAMHelper\/VmaxGAMHelper\/Source\/Banner\/VmaxAdGAMBanner.swift",
